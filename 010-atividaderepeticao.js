@@ -1,15 +1,13 @@
 let entrada = require('prompt-sync')();
  
+ 
 
 let n1 = entrada('Digite o 1º número: ')
 let n2 = entrada('Digite o 2º número: ')
 
-if (isNaN(n1) === '' || isNaN(n2) === '' ) {
+if (  n1 === '' || n2 ==='' ) {
     console.log('É necessário preencher todas as informações pedidas!');
 }
-
-
-
 
 
 parseInt(n1)

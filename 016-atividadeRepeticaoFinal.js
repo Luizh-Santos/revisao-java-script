@@ -25,7 +25,7 @@ while (t1 <= t2) {
 
     while (t2 <= t1){
 
-        for (let contador1 = 1; contador1 <= 10; contador1++) {
+        for (let contador1 = 1; contador1 <= 9; contador1++) {
             console.log(`${t2} x ${contador1} = ${parseInt(t2 * contador1)}`);
         }
         
